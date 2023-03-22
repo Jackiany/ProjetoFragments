@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SegundaActivity">
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="278dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/nome"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtIdade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.796"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtIdade"
+        android:layout_width="126dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="297dp"
+        android:text="@string/o"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNome" />
+</androidx.constraintlayout.widget.ConstraintLayout>
